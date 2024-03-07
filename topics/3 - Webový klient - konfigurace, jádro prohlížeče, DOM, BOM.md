@@ -1,3 +1,4 @@
+# 3 - Webový klient - konfigurace, jádro prohlížeče, DOM, BOM
 #### Konfigurace webového klienta
 - **Obecné:** 
 	- jazyk, vzhled, domovská stránka

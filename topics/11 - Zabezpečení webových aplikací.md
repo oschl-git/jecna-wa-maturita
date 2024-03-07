@@ -1,3 +1,4 @@
+# 11 - Zabezpečení webových aplikací
 - jendá se o jednu z nejdůležitějších součástí webdevu
 - zabránění útočníkům použít SQL injection
 - ochrana nejčastěji probíhá na nižších vrstvách aplikace

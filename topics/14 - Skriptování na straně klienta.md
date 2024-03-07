@@ -1,3 +1,4 @@
+# 14 - Skriptování na straně klienta
 - skript spouštěn v prohlížeči uživatele, nikoli na serveru
 - umožňuje dynamicky měnit obsah a chování webové stránky bez nutnosti znovu načíst celou stránku
 - nejvíce se používá pro zlepšení uživatelské zkušenosti, interaktivitu, validaci formulářů, animace

@@ -1,3 +1,4 @@
+# 10 - Provoz webového serveru - logování, bug a issue tracking
 #### Logování (Logging)
 -  **Logovací Mechanismy**
 	- Implementujeme logovací mechanismy na serveru, které zaznamenávají důležité události, chyby a informace o provozu. Logy obsahují informace o přístupech, vykonávaných operacích a výskytu chyb.

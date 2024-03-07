@@ -1,0 +1,1 @@
+# 18 - Cookies - formát, expirace, tracking cookies

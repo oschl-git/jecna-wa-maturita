@@ -1,3 +1,4 @@
+# 12 - HTML struktura, sémantika, formuláře, multimédia
 - **HyperText Markup Language** 
 - základní jazyk pro vytváření webových stránek a dokumentů
 	- umožňuje definovat strukturu, obsah a styl webových dokumentů

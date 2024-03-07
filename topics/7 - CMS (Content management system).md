@@ -1,3 +1,4 @@
+# 7 - CMS (Content management system)
 - umožňuje uživatelům vytvářet, upravovat, spravovat a publikovat obsah na webových stránkách 
 - nepotřebují hlubší znalosti programování nebo vývoje webových stránek
 	- dokáže to snad i tvoje bába >:(

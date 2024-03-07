@@ -1,3 +1,4 @@
+# 1 - HTTP - stavy, autentizace, HTTPS a SSL
 - **Hyper Text Transfer Protocol** (Insecure TwT 👉👈)
 - nejpoužívanější proces pro přenos hypertextových dokumentů mezi klientem a serverem
 - funguje způsobem dotaz-odpověď (GET, POST, PUT, DELETE)

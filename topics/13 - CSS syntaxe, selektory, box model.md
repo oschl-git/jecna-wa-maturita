@@ -1,3 +1,4 @@
+# 13 - CSS syntaxe, selektory, box model
 #### Syntaxe
 - skládá se ze selektoru, deklaračního bloku a vlastností
 	- uvnitř bloku se určijí vlastnosti

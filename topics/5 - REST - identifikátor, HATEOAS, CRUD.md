@@ -1,3 +1,4 @@
+# 5 - REST - identifikátor, HATEOAS, CRUD
 #### Identifikátor
 - každá entita/zdroj v REST architektuře musí mít unikátní ID
 - identifikátory jsou obvykle reprezentovány pomocí URL

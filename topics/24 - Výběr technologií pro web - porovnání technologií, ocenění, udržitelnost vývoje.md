@@ -1,0 +1,1 @@
+# 24 - Výběr technologií pro web - porovnání technologií, ocenění, udržitelnost vývoje

@@ -1,0 +1,1 @@
+# 23 - Responzivní design a přístupnost

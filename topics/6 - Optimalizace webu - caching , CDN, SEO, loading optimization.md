@@ -1,3 +1,4 @@
+# 6 - Optimalizace webu - caching , CDN, SEO, loading optimization
 #### Caching
 - klíčový prvek optimalizace webu
 - výrazně zvyšuje rychlost načítání stránek
