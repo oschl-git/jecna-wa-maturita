@@ -1,6 +1,5 @@
 # Maturitní témata z předmětu WA na SPŠE Ječná
 Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE Ječná pro rok 2024.
-
 ## Odkazy:
 1. [HTTP protokol - stavy, autentizace, HTTPS a SSL](/topics/1%20-%20HTTP%20-%20stavy,%20autentizace,%20HTTPS%20a%20SSL.md)
 2. [Webový server - konfigurace, provoz, cachování, bezpečnost](/topics/2%20-%20Webový%20server%20-%20konfigurace,%20provoz,%20cachování,%20bezpečnost.md)
@@ -27,7 +26,6 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 23. [Responzivní design a přístupnost](/topics/23%20-%20Responzivní%20design%20a%20přístupnost.md)
 24. [Výběr technologií pro web - porovnání technologií, ocenění, udržitelnost vývoje](/topics/24%20-%20Výběr%20technologií%20pro%20web%20-%20porovnání%20technologií,%20ocenění,%20udržitelnost%20vývoje.md)
 25. [Web v kontextu vývoje společnosti - přínosy, rizika a dopady, predikce budoucího vývoje](/topics/25%20-%20Web%20v%20kontextu%20vývoje%20společnosti%20-%20přínosy,%20rizika%20a%20dopady,%20predikce%20budoucího%20vývoje.md)
-
 ## Style guide:
 - každé téma má **h1** nadpis, který se shoduje s názvem souboru a obsahuje číslo maturitní otázky
 - podnadpisy jsou **h2**, je možné pod nimi používat i h3, h4, atd. ale jen výjimečně a kde to dává smysl, podstatné je zachovat hierarchii
