@@ -9,7 +9,7 @@
 - **verze**:
 	- HTTP/1.1 až HTTP/3
 	- HTTP/1.1 je doposud nejpoužívanější
-#### Stavy 
+### Stavy 
 - **2xx - Úspěšné:**
     - 200 OK: Požadavek byl úspěšně zpracován.
     - 201 Created: Požadavek byl úspěšně zpracován a byl vytvořen nový zdroj.
@@ -22,13 +22,13 @@
 - **5xx - Chyba serveru:**
     - 500 Internal Server Error: Na serveru došlo k chybě.
     - 503 Service Unavailable: Server je dočasně nedostupný.
-#### Autentizace
+### Autentizace
 - Autentizace je proces ověřování identity uživatele/zařízení 
 - Používá k ochraně přístupu k citlivým zdrojům
 - **Základní typy autentizace:**
 	- **Basic:** Uživatel zadává své uživatelské jméno a heslo v hlavičce požadavku, 2FA,...
 	- **Digest:** Uživatelské jméno a heslo se neodesílají v čistém textu, ale v zašifrované podobě
-#### HTTPS & SSL/TLS
+### HTTPS & SSL/TLS
 - Hypertext Transfer Protocol Secure
 - šifruje data při komunikaci mezi klientem a serverem
 	- zajišťuje integritu, autentizaci a důvěrnost posílaných dat
