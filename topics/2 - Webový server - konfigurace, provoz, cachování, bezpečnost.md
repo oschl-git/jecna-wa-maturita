@@ -1,5 +1,5 @@
 # 2 - Webový server - konfigurace, provoz, cachování, bezpečnost
-#### Konfigurace webového serveru
+## Konfigurace webového serveru
 - **Základ:**
     - výběr webového serveru (Apache, Nginx, IIS atd.)
     - nastavení IP, portů, URL a adresáře souborů
@@ -13,7 +13,7 @@
     - nastavení cachování
     - optimalizace DB dotazů
     - monitorování výkonu a analýza logů
-#### Provoz prdelového serveru
+## Provoz prdelového serveru
 - **Zpracovávání požadavků:** 
 	- server přijímá a zpracovává požadavky klientů
 	- GET, POST, yada yada yada
@@ -33,7 +33,7 @@
 	- pravidelné aktualizace SW 
 	- zajištují vyšší bezpečnost a stabilitu
 	- upgrades ppl upgrades
-#### Cachování ve webovém serveru
+## Cachování ve webovém serveru
 - ukládání (statického nebo dynamického) obsahu do mezipaměti
 - zvýšuje rychlosti načítání stránek
 - snížuje zátěž serveru
@@ -45,7 +45,7 @@
 	- **Statický obsah:** HTML, CSS, JavaScript
 	- **Dynamický obsah:** databázové dotazy, API volání, ...
 - **Cache-Control hlavičky:** HTTP cache headers slouží pro řízení cachování na straně klienta a proxy serverů
-#### Bezpečnost webového serveru
+## Bezpečnost webového serveru
 - **Běžné hrozby:**
 	- útoky - DDoS, SQL injection, Code injection, XSS,...
 	- malware a phishing

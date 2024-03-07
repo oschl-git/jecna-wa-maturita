@@ -1,5 +1,5 @@
 # 13 - CSS syntaxe, selektory, box model
-#### Syntaxe
+## Syntaxe
 - skládá se ze selektoru, deklaračního bloku a vlastností
 	- uvnitř bloku se určijí vlastnosti
 ```css 
@@ -8,7 +8,7 @@ body {
 	color: white;
 } 
 ```
-#### Selektory
+## Selektory
 - určuje, kterých HTML elementů se pravidlo týká
 - **Typy:**
 		- `body` - jméno elementu, tag: body
@@ -35,7 +35,7 @@ body {
 		- `div:hover` - když nad divem je kurzor
 		- `input:focus` - když je input vybrán
 		- ...
-#### Box model
+## Box model
 - box model je základním konceptem v CSS, který popisuje, jak jsou prvky na stránce zobrazeny a jak zabírají místo
 - každý prvek v HTML dokumentu je reprezentován jako obdélníkový "box", který se skládá z několika částí:
 	- **Obsah** - skutečný obsah elementu (text, obrázky, atd.).

@@ -3,7 +3,7 @@
 - umožňuje dynamicky měnit obsah a chování webové stránky bez nutnosti znovu načíst celou stránku
 - nejvíce se používá pro zlepšení uživatelské zkušenosti, interaktivitu, validaci formulářů, animace
 - nejpoužívanější je **Javascript**
-#### Jazyky
+## Jazyky
 - **JavaScript:** 
 	- dominantní jazyk pro skriptování na straně klienta
 	- umožňuje komplexní interaktivitu a dynamické efekty
@@ -13,11 +13,11 @@
 - **ActionScript:** 
 	- používaný pro tvorbu interaktivních Flash animací
 	- dead
-#### Knihovny a frameworky
+## Knihovny a frameworky
 - **jQuery:** populární knihovna usnadňující práci s JavaScriptem
 - **React:** framework pro tvorbu uživatelských rozhraní
 - **Angular:** framework pro tvorbu webových aplikací
-#### Použití
+## Použití
 - **Ověřování formulářů:** 
 	- kontrola platnosti zadaných údajů
 	- custom podmínky vstupů
@@ -34,7 +34,7 @@
 	- výpočetní náročnost se přesouvá na klientský počítač
 - **Webové hry:** 
 	- jednoduché hry přímo v prohlížeči
-#### Příklady
+## Příklady
 - **Internetový obchod:** přidávání produktů do košíku, filtrování produktů
 - **Sociální síť:** aktualizace profilu, zobrazování komentářů
 - **Online mapy:** interaktivní navigace, vyhledávání tras

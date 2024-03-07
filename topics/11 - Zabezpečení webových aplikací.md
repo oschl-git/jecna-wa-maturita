@@ -2,7 +2,7 @@
 - jendá se o jednu z nejdůležitějších součástí webdevu
 - zabránění útočníkům použít SQL injection
 - ochrana nejčastěji probíhá na nižších vrstvách aplikace
-#### Zabezpečení webových aplikací zahrnuje několik aspektů:
+## Zabezpečení webových aplikací zahrnuje několik aspektů:
 - **Ochrana před útoky na síťové úrovni** 
 	- To zahrnuje především zabezpečení aplikace před útoky, které mají za cíl aplikaci přetížit a tím do ní snadněji vniknout nebo ji ochromit (DDoS útoky)
 - **Aplikační vrstva** 
@@ -27,7 +27,7 @@
 - **Monitorování a auditování** 
 	- aplikace musí vést záznamy o aktivitách uživatelů a systému, a to jak pro účely ladění a řešení problémů, tak pro účely detekce a reakce na incidenty
 	- **IDS** - instruction detection system - systmén, který monitoruje síť a upozorňuje na podezřelou komunikaci
-#### Zabezpečení
+## Zabezpečení
 - Zabezpečení webových aplikací je komplexní a vyžaduje znalost různých technologií, standardů a metodik. Některé z nich jsou například:
 	- **HTTPS:** Protokol pro zabezpečenou komunikaci mezi webovým serverem a prohlížečem, který využívá šifrování a certifikáty
 	- **TLS:** Protokol pro zabezpečenou vrstvu transportu, který poskytuje šifrování, autentizaci a integritu dat při přenosu

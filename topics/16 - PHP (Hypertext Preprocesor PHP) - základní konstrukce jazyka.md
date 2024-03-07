@@ -6,4 +6,5 @@
 - Je open-source
 - Je platformově nezávislý, funguje na všech operačních systémech
 - Asi 76% webů běží na PHP
-## Synta
+## Syntaxe
+**TODO >:)**

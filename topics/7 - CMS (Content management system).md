@@ -8,7 +8,7 @@
 - obvykle je ve formátu webového rozhraní
 - **Použití:** prakticky všude, zejména; eshopy, web.zprávy,
 - **Příklady:** Wordpress, Joomla, Drupal, Shopify
-#### Základní funkce:
+## Základní funkce:
 - **Správa obsahu:** 
 	- tvorba a úprava obsahu webových stránek 
 	- možnost vytvářet a editovat text, obrázky, videa, odkazy a další prvky obsahu
