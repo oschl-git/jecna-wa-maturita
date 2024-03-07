@@ -1,0 +1,35 @@
+- jendá se o jednu z nejdůležitějších součástí webdevu
+- zabránění útočníkům použít SQL injection
+- ochrana nejčastěji probíhá na nižších vrstvách aplikace
+#### Zabezpečení webových aplikací zahrnuje několik aspektů:
+- **Ochrana před útoky na síťové úrovni** 
+	- To zahrnuje především zabezpečení aplikace před útoky, které mají za cíl aplikaci přetížit a tím do ní snadněji vniknout nebo ji ochromit (DDoS útoky)
+- **Aplikační vrstva** 
+	- je často zanedbávána v bezpečnosti
+	- malé povědomí o možných chybách ze strany klienta a developera
+- **Autentizace
+	- nutné je si dát pozor na přihlašování do aplikace a na to, aby uživatelé měli přístup opravdu jen tam, kde mají
+	- aplikace musí ověřit totožnost uživatelů a přidělit jim odpovídající oprávnění k přístupu k různým funkcím a datům
+- **Šifrování a integrita dat** 
+	- data musí být chráněna před odposlechem, modifikací nebo ztrátou, a to jak při přenosu, tak při uložení
+- **Obrana proti běžným typům útoků** 
+	- schopnost aplikace odhalit a zabránit útokům, které využívají chyb v kódu, logice nebo konfiguraci aplikace, 
+	- například: 
+		- SQL injection
+		- XSS
+		- CSRF
+		- session hijacking
+		- code injection
+		- file upload
+		- directory traversal 
+		- a další...
+- **Monitorování a auditování** 
+	- aplikace musí vést záznamy o aktivitách uživatelů a systému, a to jak pro účely ladění a řešení problémů, tak pro účely detekce a reakce na incidenty
+	- **IDS** - instruction detection system - systmén, který monitoruje síť a upozorňuje na podezřelou komunikaci
+#### Zabezpečení
+- Zabezpečení webových aplikací je komplexní a vyžaduje znalost různých technologií, standardů a metodik. Některé z nich jsou například:
+	- **HTTPS:** Protokol pro zabezpečenou komunikaci mezi webovým serverem a prohlížečem, který využívá šifrování a certifikáty
+	- **TLS:** Protokol pro zabezpečenou vrstvu transportu, který poskytuje šifrování, autentizaci a integritu dat při přenosu
+	- **PHP:** Jeden z nejpopulárnějších programovacích jazyků pro vývoj webových aplikací, který nabízí různé funkce a rozšíření pro zabezpečení, jako jsou například PDO, filter, hash, openssl, mcrypt a další
+	- **WAF:** web aplication firewall - pro filtraci nechtěné komunikace/paketů
+	- **IDS:** instruction detection system - systmén, který monitoruje síť a upozorňuje na podezřelou komunikaci

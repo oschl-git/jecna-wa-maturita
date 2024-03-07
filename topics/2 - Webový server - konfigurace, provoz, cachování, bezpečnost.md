@@ -1,0 +1,58 @@
+#### Konfigurace webového serveru
+- **Základ:**
+    - výběr webového serveru (Apache, Nginx, IIS atd.)
+    - nastavení IP, portů, URL a adresáře souborů
+    - konfigurace virtuálních hostů (v případě hostingu více webů na jednom serveru)
+- **Zabezpečení:**
+    - nastavení firewallu a přístupu k serveru
+    - konfigurace HTTPS a SSL certifikátů
+    - implementace bezpečnostních protokolů (HSTS, CSRF, XSS atd.) *whatever that is*
+- **Optimalizace výkonu:**
+    - nastavení komprese obsahu (gzip, Brotli atd.)
+    - nastavení cachování
+    - optimalizace DB dotazů
+    - monitorování výkonu a analýza logů
+#### Provoz prdelového serveru
+- **Zpracovávání požadavků:** 
+	- server přijímá a zpracovává požadavky klientů
+	- GET, POST, yada yada yada
+- **Monitoring a logování:** 
+	- sledování provozu a dostupnosti serveru + logování
+	- záznamy o přístupech k serveru jsou nezbytné pro diagnostiku a bezpečnost
+- **Záloha:** 
+	- pravidelné zálohy dat a postup pro obnovu v případě havárie
+- **Správa obsahu:** 
+	- nahrávání, aktualizace a mazání webových stránek a souborů
+	- cílem je zabránit serveru zabírat příliš velké místo na disku
+- **Řízení zátěže a škálovatelnost:** 
+	- zajistit aby server zvládal vysokou zátěž uživatelů
+	- rozšiřovat server dle náporu/návštěvnosti
+		- předejít tak kompletnímu spadnutí serveru
+- **Aktualizace:** 
+	- pravidelné aktualizace SW 
+	- zajištují vyšší bezpečnost a stabilitu
+	- upgrades ppl upgrades
+#### Cachování ve webovém serveru
+- ukládání (statického nebo dynamického) obsahu do mezipaměti
+- zvýšuje rychlosti načítání stránek
+- snížuje zátěž serveru
+- cache se musí aktualizovat při změnách obsahu
+- **Typy cachování:**
+	- Server-side caching
+	- Client-side caching
+- **Ukládaný osbah:** 
+	- **Statický obsah:** HTML, CSS, JavaScript
+	- **Dynamický obsah:** databázové dotazy, API volání, ...
+- **Cache-Control hlavičky:** HTTP cache headers slouží pro řízení cachování na straně klienta a proxy serverů
+#### Bezpečnost webového serveru
+- **Běžné hrozby:**
+	- útoky - DDoS, SQL injection, Code injection, XSS,...
+	- malware a phishing
+	- krádeže dat
+- **Preventivní opatření:**
+    - nastavení firewallu a Access Control Lists (ACL) pro omezení přístupu k serveru na základě IP adres a portů
+    - konfigurace HTTPS a SSL certifikátů
+	    - SSL/TLS šifrování: zabezpečení komunikace mezi klientem a serverem
+    - implementace bezpečnostních protokolů (HSTS, CSRF, XSS,...)
+    - silná hesla pro přístup k DB a správě serveru
+    - pravidelná aktualizace softwaru a záplatování zranitelností
