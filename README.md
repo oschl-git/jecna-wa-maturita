@@ -1,4 +1,4 @@
 # Maturitní témata z předmětu WA na SPŠE Ječná
-Zpracovaná témata na maturitní témata z předmětu Webové Aplikace na SPŠE Ječná pro rok 2024.
+Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE Ječná pro rok 2024.
 ## Odkazy:
 **TBA**
