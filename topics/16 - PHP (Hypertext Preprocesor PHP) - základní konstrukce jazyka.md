@@ -43,7 +43,7 @@
 ## PHP OOP
 - PHP obsahuje klasické OOP možnosti, velmi podobné C# nebo Javě
 - zajímavě se mohou psát konstruktory (dají se i klasicky, ale tímto způsobem není nutné deklarovat proměnnou mimo konstruktor):
-```
+```php
 public function __construct(
 	public int $id,
 	private ?string $name,
