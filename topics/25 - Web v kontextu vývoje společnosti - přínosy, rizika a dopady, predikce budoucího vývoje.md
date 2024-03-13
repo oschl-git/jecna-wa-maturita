@@ -1,1 +1,0 @@
-# 25 - Web v kontextu vývoje společnosti - přínosy, rizika a dopady, predikce budoucího vývoje
