@@ -24,21 +24,21 @@
 	- je to ale trochu prasárna, místo toho se používají templatovací jazyky frameworků, jako např. Twig, Latte, Blade
 - komentáře se píšou klasicky `//` nebo `/*` a `*/`
 - PHP je dynamicky typované, v některých případech ale lze (a je dobrý nápad) typ proměnných specifikovat
-	- je možné určit typ, co vrací funkce:```
+	- je možné určit typ, co vrací funkce:
 	```php
-function add(int $a, int $b): int {
-    return $a + $b;
-}
-```
+	function add(int $a, int $b): int {
+	    return $a + $b;
+	}
+	```
 	- je možné specifikovat typ class properties a konstant:
-```php
-class User
-{
-    public int $id;
-    const string OBLIBENE_JIDLO = 'hamnburger';
-    // může být konstanta protože to je oblíbené jídlo všech uživatelů
-}
-```
+	```php
+	class User
+	{
+	    public int $id;
+	    const string OBLIBENE_JIDLO = 'hamnburger';
+	    // může být konstanta protože to je oblíbené jídlo všech uživatelů
+	}
+	```
 	- atd.
 ## PHP OOP
 - PHP obsahuje klasické OOP možnosti, velmi podobné C# nebo Javě
