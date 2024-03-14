@@ -51,3 +51,33 @@ public function __construct(
 {
 }
 ```
+## PHP frameworky
+- **Laravel**
+	- kompletní framework se všemi funkcemi k vývoji webových aplikací
+	- využívá [MVC (model-view-controller)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) architekturu
+	- elegantní syntaxe, nemusíme psát mnoho kódu
+	- má mnoho předem připravené funkcionality
+		- routování
+		- ORM (*Eloquent*)
+		- templatování (*Blade templates*)
+		- + mnoho dalšího
+	- je nejpopulárnější PHP framework, využívá ho asi 7% webů
+	- má velkou komunitu, velkou podporu
+- **Symfony**
+	- MVC architektura
+	- je modulární, skládá se z komponentů, které se dají využívat samostatně
+		- Laravel využívá některé Symfony komponenty
+	- nabízí základ pro vývoj, dá se rozšířit dalšími knihovnami
+	- nabízí předem připravenou funkcionalitu
+		- routování
+		- ORM (*Doctrine*) 
+		- templatování (*Twig*)
+		- + mnoho dalšího
+- **Nette**
+	- český framework
+	- využívá Symfony komponenty
+	- MVC funkcionalita
+	- používá světoslavná firma Omnicado s. r. o.
+	- předem připravené funkce
+		- templatování (*Latte*)
+	- pro ORM se používá Doctrine ze Symfony
