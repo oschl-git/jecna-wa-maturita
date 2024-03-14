@@ -32,4 +32,5 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 - nadpisy začínají velkým písmenem
 - vše je napsáno stylisticky hezky a nic nevypadá hrozně!
 - failure to comply will result in **death** 
+
  ![[logo.jpg]]
