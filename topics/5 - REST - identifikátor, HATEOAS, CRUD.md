@@ -8,7 +8,7 @@
 	- **Auto-increment ID:** ID jako v DB, postupně se zvyšující číslo
 	- **Kompozitní klíč:** Kombinace několika atributů, které společně identifikují entitu.
 ## REST
-- **Representational State Transfer
+- **Representational State Transfer**
 - cesta, jak jednoduše vytvořit, číst, aktualizovat (editovat) nebo smazat informace ze serveru pomocí jednoduchých HTTP volání
 - požadavky na architektonický styl vyhovující paradigmatu REST:
 	- client-server - client a server jsou nezávislí
