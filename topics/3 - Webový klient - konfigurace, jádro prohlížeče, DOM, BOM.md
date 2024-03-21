@@ -18,9 +18,9 @@
 - **Rendering engine:** 
 	- načítání a vykreslování webových stránek (zobrazuje HTML, CSS,...)
 - **JavaScript engine:** 
-	- spóští JS kód stránok
+	- spouští JS kód stránek
 	- např.: V8 (Chrome), SpiderMonkey (Firefox),...
-- **Správuje historii, sobory a cookies:**
+- **Spravuje historii, sobory a cookies:**
 	- to umí každý webbrowser
 ## DOM (Document Object Model)
 - reprezentuje strukturu a obsah webové stránky
