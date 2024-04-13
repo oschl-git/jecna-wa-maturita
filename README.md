@@ -16,7 +16,7 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 13. [CSS - syntaxe, selektory, box model](/topics/13%20-%20CSS%20syntaxe,%20selektory,%20box%20model.md)
 14. [Skriptování na straně klienta](/topics/14%20-%20Skriptování%20na%20straně%20klienta.md)
 15. [Skriptování na straně serveru](/topics/15%20-%20Skriptování%20na%20straně%20serveru.md)
-16. [PHP (Hypertext Preprocesor PHP) - základní konstrukce jazyka](/topics/16%20-%20PHP%20(Hypertext%20Preprocesor%20PHP)%20-%20základní%20konstrukce%20jazyka.md)
+16. [PHP (Hypertext Preprocessor PHP) - základní konstrukce jazyka](/topics/16%20-%20PHP%20(Hypertext%20Preprocessor%20PHP)%20-%20základní%20konstrukce%20jazyka.md)
 17. [Layout, komponenty a navigační prvky](/topics/17%20-%20Layout,%20komponenty%20a%20navigační%20prvky.md)
 18. [Cookies - formát, expirace, tracking cookies](/topics/18%20-%20Cookies%20-%20formát,%20expirace,%20tracking%20cookies.md)
 19. [Sessions - zpracování, vztah mezi ssessions a cookies](/topics/19%20-%20Sessions%20-%20zpracování,%20vztah%20mezi%20ssessions%20a%20cookies.md)

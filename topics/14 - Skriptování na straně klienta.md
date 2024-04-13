@@ -1,40 +1,44 @@
 # 14 - Skriptování na straně klienta
-- skript spouštěn v prohlížeči uživatele, nikoli na serveru
-- umožňuje dynamicky měnit obsah a chování webové stránky bez nutnosti znovu načíst celou stránku
-- nejvíce se používá pro zlepšení uživatelské zkušenosti, interaktivitu, validaci formulářů, animace
-- nejpoužívanější je **Javascript**
-## Jazyky
-- **JavaScript:** 
-	- dominantní jazyk pro skriptování na straně klienta
-	- umožňuje komplexní interaktivitu a dynamické efekty
-	- může třeba: 
-		- odesílat formuláře, příjmat informace ze serveru,...
-- **VBScript:** méně používaný jazyk, dříve populární v prohlížeči Internet Explorer
-- **ActionScript:** 
-	- používaný pro tvorbu interaktivních Flash animací
-	- dead
-## Knihovny a frameworky
-- **jQuery:** populární knihovna usnadňující práci s JavaScriptem
-- **React:** framework pro tvorbu uživatelských rozhraní
-- **Angular:** framework pro tvorbu webových aplikací
-## Použití
-- **Ověřování formulářů:** 
-	- kontrola platnosti zadaných údajů
-	- custom podmínky vstupů
-- **Validace vstupů:** 
-	- zabránění zadání nesprávných dat
-	- SQL injection útoky apod.
-- **Dynamické efekty:** 
-	- animace, interaktivní menu, galerie obrázků
-	- stránky se stávají dynamičtějšími a zábavnějšími pro uživatele
-- **AJAX:** 
-	- asynchronní komunikace s webovým serverem bez nutnosti znovu načíst stránku
-	- změny na stránce se dějí bez nutnosti znovu načíst celou stránku
-- **Snížení zátěže serveru:** 
-	- výpočetní náročnost se přesouvá na klientský počítač
-- **Webové hry:** 
-	- jednoduché hry přímo v prohlížeči
-## Příklady
-- **Internetový obchod:** přidávání produktů do košíku, filtrování produktů
-- **Sociální síť:** aktualizace profilu, zobrazování komentářů
-- **Online mapy:** interaktivní navigace, vyhledávání tras
+- psaní kódu, který se spouští v prohlížeči klienta
+- zdrojový kód si uživatel může zobrazit
+- využívá se k tvoření interaktivních a dynamických stránek
+- může ulehčit zátěž na serveru přesnesením logiky na stranu klienta
+
+## JavaScript
+- prakticky jediný frontend jazyk, který moderní prohlížeče dokáží spustit
+- nabízí možnosti interakce a manipulace s DOM i BOM
+  - DOM = document object model, objekty na stránce
+    - úprava layoutu, animace, změny stylů a obsahu, atd.
+  - BOM = browser object model, objekty v prohlížeči
+    - vysílání alertů, ukládání a čtení cookies a localstorage, atd.
+- existuje mnoho alternativních jazyků a frameworků pro frontend skriptování, ty se ale ve výsledku také kompilují do JavaScriptu
+  - React
+  - Svelte
+  - Vue.js
+  - HTMX
+
+### Hlavní využití
+- interaktivní a dynamické weby
+- změna stavů HTML prvků
+- přidání vlastní logiky do formulářů
+  - input validace
+- offline funkce
+- dynamická změna obsahu, není nutné vždy načítat novou stránku
+  - "Single Page Applications"
+
+### Nevýhody
+- kód je všem viditelný, může být změněn
+- kód nemusí být vždy kompatibilní s prohlížečem, může se chovat různě mezi prohlížeči
+- JavaScript je relativně pomalý
+- někteří uživatelé mohou mít JavaScript vypnutý
+
+## WebAssembly
+- způsob low-level skriptování na straně klienta
+- umožňuje spouštět C, C++, Rust, atd. kód v prohlížeči
+- není náhradou za JavaScript, fungují dohromady
+- kód webových stránek může běžet stejně rychle a efektivně, jako kód desktopových aplikací
+  - umožňuje tvořit např. náročné 3D hry v prohlížeči
+  - složité vědecké komputace
+  - přímé porty namáhavých počítačových aplikací do prohlížeče (editování videa, 3D modelování, ...)
+- kód běží v sandboxovaném virtuálním prostředí
+- WebAssembly a JavaScript spolu mohou sdílet data a spolupracovat

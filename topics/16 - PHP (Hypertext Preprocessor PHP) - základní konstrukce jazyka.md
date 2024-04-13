@@ -1,4 +1,4 @@
-# 16 - PHP (Hypertext Preprocesor PHP) - základní konstrukce jazyka
+# 16 - PHP (Hypertext Preprocessor PHP) - základní konstrukce jazyka
 - **PHP** je programovací jazyk, který se používá především pro dynamické generování webových stránek a webových aplikací
 - zkratka je *rekurzivním akronymem* který znamená "Hypertext Preprocessor PHP", původně znamenal "personal homepage", pak byl význam kvůli nevhodnosti změněn
 - je specifický tím, že se používá jako webový backend, a ne na nic moc jiného 
@@ -22,8 +22,9 @@
 - proměnné se nedeklarují, označují se $ (např. `$waluigi = 69420`)
 - začátek PHP kódu se označuje `<?php` a konec `?>`, v .php souborech se dá kombinovat s HTML
 	- je to ale trochu prasárna, místo toho se používají templatovací jazyky frameworků, jako např. Twig, Latte, Blade
-- komentáře se píšou klasicky `//` nebo `/*` a `*/`
-- PHP je dynamicky typované, v některých případech ale lze (a je dobrý nápad) typ proměnných specifikovat
+	- v souborech co bsahují jen PHP nemusí být ukončující tag vůbec
+- komentáře se píšou klasicky `//` nebo `/*` a `*/` nebo dokonce `#`
+- PHP je dynamicky typované, v některých případech ale lze (a je skoro vždy dobrý nápad) typ proměnných specifikovat
 	- je možné určit typ, co vrací funkce:
 	```php
 	function add(int $a, int $b): int {
