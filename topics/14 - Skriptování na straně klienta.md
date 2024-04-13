@@ -1,5 +1,5 @@
 # 14 - Skriptování na straně klienta
-- psaní kódu, který se spouští v prohlížeči klienta
+- psaní frontend kódu, který se spouští v prohlížeči klienta
 - zdrojový kód si uživatel může zobrazit
 - využívá se k tvoření interaktivních a dynamických stránek
 - může ulehčit zátěž na serveru přesnesením logiky na stranu klienta
