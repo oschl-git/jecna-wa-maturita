@@ -28,6 +28,7 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 25. [Web v kontextu vývoje společnosti - přínosy, rizika a dopady, predikce budoucího vývoje](/topics/25%20-%20Web%20v%20kontextu%20vývoje%20společnosti%20-%20přínosy,%20rizika%20a%20dopady,%20predikce%20budoucího%20vývoje.md)
 ## Style guide:
 - každé téma má **h1** nadpis, který se shoduje s názvem souboru a obsahuje číslo maturitní otázky
+- každé téma má **h2** nadepsanou sekci "O čem mluvit?"
 - podnadpisy jsou **h2**, je možné pod nimi používat i h3, h4, atd. ale jen výjimečně a kde to dává smysl, podstatné je zachovat hierarchii
 - nadpisy začínají velkým písmenem
 - vše je napsáno stylisticky hezky a nic nevypadá hrozně!

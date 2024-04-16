@@ -5,7 +5,6 @@
 - zvyšuje zátěž na serveru
 - klient serverový kód nevidí
 - dá se použít téměř jakýkoliv general-purpose programovací jazyk
-
 ## Časté jazyky
 - PHP
 - JavaScript (NodeJS či jiný runtime)
@@ -14,13 +13,11 @@
 - Java 
 - Ruby
 - Rust
-
 ## Hlavní využití
 - autentikace uživatelů, ochrana citlivých dat
 - ukládání uživatelských dat
 - procesování požadavků (např. bankovní převody)
 - tvoření obsahu webových stránek z uživatelských dat (např. příspěvky na sociálních sítích )
-
 ## Frameworky
 - pro tvorbu webových backendů se nejčastěji používají frameworky, které dokážou práci výrazně usnadnit
 - **PHP**

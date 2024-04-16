@@ -1,7 +1,7 @@
 # 17 - Layout, komponenty a navigační prvky
 
 ## Layout 
-- Layout je způsob, jakým jsou prvky obsahu uspočřádány na stránce
+- Layout je způsob, jakým jsou prvky obsahu uspořádány na stránce
 - Nejčastější rozložení stránky se děli na:
 	- **Header**  
 		- horní část stránky
