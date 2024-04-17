@@ -1,4 +1,20 @@
 # 15 - Skriptování na straně serveru
+## O čem mluvit?
+- vysvětlit, co to je
+  - k čemu slouží
+  - popsat výhody a nevýhody
+  - vlastnosti kódu
+  - kde se kód spouští
+  - zda je viditelný a upravitelný klientem
+- o PHP (Mandík i Adámek budou nadšení)
+  - zmínit že je nejpoužívanější
+  - možná zmínit nějakou základní syntaxi
+  - povídat o frameworcích
+- zmínit další jazyky
+  - čím jsou specifické
+  - výhody/nevýhody
+  - frameworky
+## Skriptování na straně serveru
 - psaní backend kódu, který se spouští na straně serveru
 - server generuje stránky a obsah, který klientovi zasílá
   - obsah může být pro každého klienta jiný
@@ -6,9 +22,20 @@
 - klient serverový kód nevidí
 - dá se použít téměř jakýkoliv general-purpose programovací jazyk
 ## Časté jazyky
-- PHP
-- JavaScript (NodeJS či jiný runtime)
+- **PHP**
+  - nejpoužívanější
+  - snadný development, deployment
+  - mnoho skvělých, robustních frameworků, obrovský ekosystém knihoven
+  - není nejrychlejší
+  - dynamicky typovaný, má optional type declarations
+  - pro spuštění se klasicky používá Apache/Nginx
+- **JavaScript/TypeScript** (NodeJS či jiný runtime)
+  - "moderní", používaný nejčastěji v USA (častěji než PHP)
+  - JavaScript je dynamicky typovaný, TypeScript je staticky typovaný
+  - také není nejrychlejší
+  - mnoho frameworků, knihoven a dalších věcí postavených nad NodeJS
 - C# (.NET)
+  - využívá se nejčastěji framework od Microsoftu ASP.NET (asi 7% všech webů používá jako backend)
 - Python
 - Java 
 - Ruby

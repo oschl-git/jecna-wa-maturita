@@ -1,4 +1,24 @@
 # 16 - PHP (Hypertext Preprocessor PHP) - základní konstrukce jazyka
+## O čem mluvit?
+- co to je
+  - co znamená název
+  - na co se používá
+  - jak v základu funguje
+  - jak moc je využívané
+- něco o historii (who cares tbh)
+- syntaxe
+  - popsat základy syntaxe
+  - jak se píšou proměnné
+  - jak se píšou typy
+  - jak se označuje PHP kód v souboru
+  - jak se píšou komentáře
+- PHP OOP
+  - jak funguje
+  - čím je zajímavé
+- Frameworky
+  - jaké existují
+  - čím jsou specifické
+## PHP (Hypertext Preprocessor PHP) - základní konstrukce jazyka
 - **PHP** je programovací jazyk, který se používá především pro dynamické generování webových stránek a webových aplikací
 - zkratka je *rekurzivním akronymem* který znamená "Hypertext Preprocessor PHP", původně znamenal "personal homepage", pak byl význam kvůli nevhodnosti změněn
 - je specifický tím, že se používá jako webový backend, a ne na nic moc jiného 
