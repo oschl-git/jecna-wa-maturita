@@ -23,7 +23,7 @@
 - psaní frontend kódu, který se spouští v prohlížeči klienta
 - zdrojový kód si uživatel může zobrazit
 - využívá se k tvoření interaktivních a dynamických stránek
-- může ulehčit zátěž na serveru přesnesením logiky na stranu klienta
+- může ulehčit zátěž na serveru přenesením logiky na stranu klienta
 ## JavaScript
 - prakticky jediný frontend jazyk, který moderní prohlížeče dokáží spustit
 - je interpretovaný, spouští ho prohlížeč
