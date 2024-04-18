@@ -42,7 +42,7 @@
 - proměnné se nedeklarují, označují se $ (např. `$waluigi = 69420`)
 - začátek PHP kódu se označuje `<?php` a konec `?>`, v .php souborech se dá kombinovat s HTML
 	- je to ale trochu prasárna, místo toho se používají templatovací jazyky frameworků, jako např. Twig, Latte, Blade
-	- v souborech co bsahují jen PHP nemusí být ukončující tag vůbec
+	- v souborech co obsahují jen PHP nemusí být ukončující tag vůbec
 - komentáře se píšou klasicky `//` nebo `/*` a `*/` nebo dokonce `#`
 - PHP je dynamicky typované, v některých případech ale lze (a je skoro vždy dobrý nápad) typ proměnných specifikovat
 	- je možné určit typ, co vrací funkce:
