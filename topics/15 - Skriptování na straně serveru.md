@@ -24,6 +24,7 @@
 ## Časté jazyky
 - **PHP**
   - nejpoužívanější
+  - asi 76% webů běží na PHP
   - snadný development, deployment
   - mnoho skvělých, robustních frameworků, obrovský ekosystém knihoven
   - není nejrychlejší
