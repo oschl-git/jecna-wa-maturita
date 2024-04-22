@@ -13,7 +13,7 @@
 	- kompletní seznam lze najít zde: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 	- elementy mají své atributy, např. `<img>` má atribut alt, který specifikuje text, který se zobrazí, pokud se obrázek napodaří načíst (`<img src="http://spsejecna.cz/spongebob" alt="Spongebobg!">`)
 ## Nejčastější způsob rozložení stránky
-- **Hlavička/Header**  
+- **Hlavička/Header**	
 	- `<header>`
 	- horní část stránky
 	- obsahuje veci jako je logo a navigační menu

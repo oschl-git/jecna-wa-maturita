@@ -1,23 +1,23 @@
 # 16 - PHP (Hypertext Preprocessor PHP) - základní konstrukce jazyka
 ## O čem mluvit?
 - co to je
-  - co znamená název
-  - na co se používá
-  - jak v základu funguje
-  - jak moc je využívané
+	- co znamená název
+	- na co se používá
+	- jak v základu funguje
+	- jak moc je využívané
 - něco o historii (who cares tbh)
 - syntaxe
-  - popsat základy syntaxe
-  - jak se píšou proměnné
-  - jak se píšou typy
-  - jak se označuje PHP kód v souboru
-  - jak se píšou komentáře
+	- popsat základy syntaxe
+	- jak se píšou proměnné
+	- jak se píšou typy
+	- jak se označuje PHP kód v souboru
+	- jak se píšou komentáře
 - PHP OOP
-  - jak funguje
-  - čím je zajímavé
+	- jak funguje
+	- čím je zajímavé
 - Frameworky
-  - jaké existují
-  - čím jsou specifické
+	- jaké existují
+	- čím jsou specifické
 ## PHP (Hypertext Preprocessor PHP) - základní konstrukce jazyka
 - **PHP** je programovací jazyk, který se používá především pro dynamické generování webových stránek a webových aplikací
 - zkratka je *rekurzivním akronymem* který znamená "Hypertext Preprocessor PHP", původně znamenal "personal homepage", pak byl význam kvůli nevhodnosti změněn
@@ -42,22 +42,22 @@
 - proměnné se nedeklarují, označují se $ (např. `$waluigi = 69420`)
 - začátek PHP kódu se označuje `<?php` a konec `?>`, v .php souborech se dá kombinovat s HTML
 	- je to ale trochu prasárna, místo toho se používají templatovací jazyky frameworků, jako např. Twig, Latte, Blade
-	- v souborech co obsahují jen PHP nemusí být ukončující tag vůbec
+	- v souborech co bsahují jen PHP nemusí být ukončující tag vůbec
 - komentáře se píšou klasicky `//` nebo `/*` a `*/` nebo dokonce `#`
 - PHP je dynamicky typované, v některých případech ale lze (a je skoro vždy dobrý nápad) typ proměnných specifikovat
-	- je možné určit typ, co vrací funkce:
+	- je možné určit typ, co berou a vrací funkce:
 	```php
 	function add(int $a, int $b): int {
-	    return $a + $b;
+			return $a + $b;
 	}
 	```
 	- je možné specifikovat typ class properties a konstant:
 	```php
 	class User
 	{
-	    public int $id;
-	    const string OBLIBENE_JIDLO = 'hamnburger';
-	    // může být konstanta protože to je oblíbené jídlo všech uživatelů
+			public int $id;
+			const string OBLIBENE_JIDLO = 'hamnburger';
+			// může být konstanta protože to je oblíbené jídlo všech uživatelů
 	}
 	```
 	- atd.
