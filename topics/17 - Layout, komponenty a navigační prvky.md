@@ -10,7 +10,9 @@
 ## HTML
 - *HyperText Markup Language*
 - není programovací jazyk!
-- skládá se z tagů které definují jednotlivé komponenty, ze kterých je stránka složená
+- skládá se z tagů které definují jednotlivé komponenty ze kterých je stránka složená
+- komponenta je skupinou tagů, uskupení funkcionalit
+- tagy
 	- většinou musí být otevřené a uzavřené `<html> ... </html>`
 	- např. `<div>`, `<header>`, `<a>`, `<img>`, ...
 	- kompletní seznam lze najít zde: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
@@ -31,7 +33,6 @@
 	- `<footer>`
 	- spodní část stránky
 	- nejčastěji soucástí footeru jsou kontakty, sociální sítě a copyright info
-
 ## Templatování
 - mnoho frameworků a webových nástrojů umožňují vytváření HTML šablon
 - šablony definují strukturu stránky, data uvnitř se ovšem mohou měnit
