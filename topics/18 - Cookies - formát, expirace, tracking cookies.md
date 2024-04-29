@@ -51,7 +51,10 @@ document.cookie = "delightful_cookie; Max-Age=3600;
 
 - ve všech případech lze smazat cookies tím, že jim nastavíme expiraci na čas, který již uplynul (klasicky 01 Jan 1970 00:00:00 UTC)
 ## Typy cookies
-### Session cookie
-- je smazaná při restartu prohlížeče
-### Persistent cookie
-- expiruje ve specifické datum a čas
+- **Session cookie**: je smazaná při restartu prohlížeče
+- **Persistent cookie**: je zachovaná, expiruje v určité datum a čas
+- **Secure cookie**: posílá se jen skrz HTTPS
+## Tracking
+- cookies ze používají na sledování chování uživatelů
+- při prvním requestu pošle server uživateli cookie, která uživatele unikátně identifikuje
+- při dalších requestech uživatele prohlížeč cookie posílá, čímž může server sledovat, jaké stránky uživatel navštívil a jak dlouho na nich strávil
