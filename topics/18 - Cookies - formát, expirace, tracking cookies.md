@@ -1,5 +1,12 @@
 # 18 - Cookies - formát, expirace, tracking cookies
 ## O čem mluvit?
+- popsat, co to cookies jsou
+- jakou mají velikost
+- popsat, k čemu jsou vhodné, a k čemu je lepší použít např. localStorage
+- vysvětlit jak fungují
+	- jak je možné je nastavovat, mazat a číst
+- jaké jsou speciální typy cookies
+- jak je možné skrz cookies trackovat uživatele
 ## Cookies - formát, expirace, tracking cookies
 - malé textové soubory, které se ukládají v prohlížeči klienta
 - mají maximálně 4096 bytů
