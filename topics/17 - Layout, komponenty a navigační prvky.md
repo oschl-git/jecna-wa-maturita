@@ -17,7 +17,7 @@
 	- např. `<div>`, `<header>`, `<a>`, `<img>`, ...
 	- kompletní seznam lze najít zde: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 	- elementy mají své atributy, např. `<img>` má atribut alt, který specifikuje text, který se zobrazí, pokud se obrázek napodaří načíst (`<img src="http://spsejecna.cz/spongebob" alt="Spongebobg!">`)
-- prvky na stánce mohou mít třídy a ID
+- prvky na stránce mohou mít třídy a ID
 ## Nejčastější způsob rozložení stránky
 - **Hlavička/Header**  
 	- `<header>`
