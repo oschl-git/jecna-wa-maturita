@@ -1,1 +1,42 @@
 # Web v kontextu vývoje společnosti - přínosy, rizika a dopady, predikce budoucího vývoje
+## O čem mluvit?
+- jak internet změnil svět
+	- co usnadnil
+	- co zlepšil a umožnil
+	- čím svět zhoršil
+- negativní dopady a rizika
+	- o soukromí lidí
+		- jak je možné lidi trackovat
+		- jak velké množství dat je možné vyčíst i ze zdánlivě nepodstatných informací
+		- fingerprinting
+	- o ztrátě reálné sociální interakce
+	- o sociálních sítích
+		- závislost
+		- radikalizace
+		- změna myšlení
+	- o manipulaci
+		- jak mohou různé entity a lidé využívat internet k manipulizaci a radikalizaci lidí
+	- o podvodech, scamech
+- o odhadech budoucího vývoje
+	- jak se budou vyvíjet technologie
+	- jak dál pokročí dependence populace na sociálních sítích
+	- jaké fyzické prostředky/podniky/pobočky budou nahrazeny
+
+## Fingerprinting
+- využití informací zaslaných prohlížečem serveru k unikátní identifikaci zařízení či člověka, co sedí za monitorem
+- weby mohou využít mnoho dat, které jim klient poskytne
+	- IP adresa
+	- User-Agent string
+		- operační systém
+		- architektura procesoru
+		- prohlížeč a verze
+		- rendering engine prohlížeče
+	- HTTP headery
+	- cookies
+	- rozlišení a color-depth displeje
+	- nainstalovaná písma
+	- časové pásmo
+	- nainstalované pluginy
+- pomocí těchto dat lze ve velkém množstvím případů unikátně identifikovat zařízení
+- čím více unikátní zařízení, tím snažší to je, např. Linuxová zařízení lze daleko snadněji fingerprintovat
+- pokud má entita, co se o to pokouší, přístup k jinému serveru kde je uživatel přihlášený pod jménem, lze spojit aktivitu uživatelů na jiných webech se specifickým člověkem
