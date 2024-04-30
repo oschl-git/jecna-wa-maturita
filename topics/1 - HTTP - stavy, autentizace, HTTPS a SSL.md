@@ -35,6 +35,6 @@
 	- chrání data před odposlechem a manipulací
 - používá HTTP s SSL/TLS (Secure Sockets Layer/Transport Layer Security)
 	- SSL/TLS šifrují data - vytváří šifrovaný kanál mezi klientem a serverem
-- standartní port je 443 TCP
+- standardní port je 443 TCP
 - zabezpečení pomocí podepisování a ověřování certifikátů třetích stran
 - nemusí být kompatibilní se staršími prohlížeči (Internetový explorér 🤮)

@@ -1,9 +1,9 @@
 # 4 - Asynchroní a synchroní komunikace na webu
 - Asynchroní a synchroní komunikace na webu jsou dva způsoby, jakými mohou webové aplikace vyměňovat data s webovými servery.
-- Z pohledu vývojáře webu je obecně doporučováno používat asynchronní komunikaci pro výkon a uživatelskou zkušenost. 
+- Z pohledu vývojáře webu je obecně doporučováno používat asynchronní komunikaci pro výkon a lepší uživatelský pocit z webu. 
 - Asynchronní komunikace také umožňuje využít výhod moderních webových technologií, jako jsou Promise, async/await, Service Worker a Web Worker Nicméně, v některých případech může být synchronní komunikace vhodnější nebo nevyhnutelná, například při načítání závislostí nebo při práci s omezenými prostředky.
 ## Synchronní komunikace: 
-- ve setjném čase (i místě), okamžitá, telefonování, chat, videocall
+- ve stejném čase (i místě), okamžitá, telefonování, chat, videocall
 - webová aplikace musí čekat, než se dokončí požadavek na server než může pokračovat v 
 - může způsobit zablokování nebo zamrznutí uživatelského rozhraní, pokud je požadavek pomalý nebo selže
 - příkladem synchronní komunikace je XMLHttpRequest s parametrem `false`
