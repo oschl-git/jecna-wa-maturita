@@ -1,1 +1,0 @@
-# 19 - Sessions - zpracování, vztah mezi ssessions a cookies

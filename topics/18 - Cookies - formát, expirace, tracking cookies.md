@@ -17,7 +17,6 @@
 	- session management (přihlášení, nákupní košík, cokoliv co by si měl server pamatovat)
 	- personalizace (uživatelské nastavení, light/dark theme, atd.)
 	- tracking (analyzování chování uživatelů)
-
 ## Nastavování cookies
 ### Skrz odpověď serveru
 - server pošle `Set-Cookie` header:
@@ -28,7 +27,6 @@ Set-Cookie: <cookie-name>=<cookie-value>
 - expirace se může nastavit přes `Expires` nebo `Max-Age` atributy
 	- `Expires` nastaví datum a čas, po kterém už cookie nebude platit
 	- `Max-Age` nastaví čas (v sekundách) jak dlouho má cookie zůstat uložena, má prioritu nad `Expires`
-
 - např.:
 ```
 HTTP/2.0 200 OK
