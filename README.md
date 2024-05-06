@@ -2,7 +2,7 @@
 Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE Ječná pro rok 2024.
 
 - [Zpracovaná témata z PV](https://github.com/NeDDy3z/jecna-pv-maturita)
-- [Další zpracovaná témata z PV](https://github.com/AntoninKadrmas/MaturitaJecna)
+- [Další zpracovaná témata z PV z předchozích let](https://github.com/AntoninKadrmas/MaturitaJecna)
 ## Odkazy:
 1. [HTTP protokol - stavy, autentizace, HTTPS a SSL](/topics/01%20-%20HTTP%20-%20stavy,%20autentizace,%20HTTPS%20a%20SSL.md)
 2. [Webový server - konfigurace, provoz, cachování, bezpečnost](/topics/02%20-%20Webový%20server%20-%20konfigurace,%20provoz,%20cachování,%20bezpečnost.md)
