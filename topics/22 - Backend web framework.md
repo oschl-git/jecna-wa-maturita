@@ -24,7 +24,7 @@
 - Druhy BWF
 	- **Django** - Python
 	- **ExpressJS** - NodeJS
-	- **Ruby on Rails** - PHP
+	- **Ruby on Rails** - Ruby
 	- **Asp .NET** - C#
 	- **Spring Boot** - Java
 	- ...

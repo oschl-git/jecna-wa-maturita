@@ -1,6 +1,7 @@
 # Web v kontextu vývoje společnosti - přínosy, rizika a dopady, predikce budoucího vývoje
 ## O čem mluvit?
 - jak internet změnil svět
+	- jaká byla původní myšlenka
 	- co usnadnil
 	- co zlepšil a umožnil
 	- čím svět zhoršil
@@ -21,7 +22,6 @@
 	- jak se budou vyvíjet technologie
 	- jak dál pokročí dependence populace na sociálních sítích
 	- jaké fyzické prostředky/podniky/pobočky budou nahrazeny
-
 ## Fingerprinting
 - využití informací zaslaných prohlížečem serveru k unikátní identifikaci zařízení či člověka, co sedí za monitorem
 - weby mohou využít mnoho dat, které jim klient poskytne

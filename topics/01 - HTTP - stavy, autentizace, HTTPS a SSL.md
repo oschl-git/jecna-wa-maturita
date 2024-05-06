@@ -1,7 +1,7 @@
 # 1 - HTTP - stavy, autentizace, HTTPS a SSL
 - **Hyper Text Transfer Protocol** (Insecure TwT 👉👈)
 - nejpoužívanější proces pro přenos hypertextových dokumentů mezi klientem a serverem
-- funguje způsobem dotaz-odpověď (GET, POST, PUT, DELETE)
+- funguje způsobem dotaz-odpověď skrz HTTP requesty (GET, POST, PUT, DELETE)
 - čitelný člověkem - je to čistý text
 	- formát HTML, XML
 - používá port TCP/80
@@ -9,7 +9,7 @@
 - **verze**:
 	- HTTP/1.1 až HTTP/3
 	- HTTP/1.1 je doposud nejpoužívanější
-## Stavy 
+## Druhy odpovědí serveru (+ časté příklady) 
 - **2xx - Úspěšné:**
     - 200 OK: Požadavek byl úspěšně zpracován.
     - 201 Created: Požadavek byl úspěšně zpracován a byl vytvořen nový zdroj.
@@ -25,9 +25,8 @@
 ## Autentizace
 - Autentizace je proces ověřování identity uživatele/zařízení 
 - Používá k ochraně přístupu k citlivým zdrojům
-- **Základní typy autentizace:**
-	- **Basic:** Uživatel zadává své uživatelské jméno a heslo v hlavičce požadavku, 2FA,...
-	- **Digest:** Uživatelské jméno a heslo se neodesílají v čistém textu, ale v zašifrované podobě
+- Pro jednoduchou autentizaci se používá `Authorization` header
+- Industry standard je protokol OAuth 2.0
 ## HTTPS & SSL/TLS
 - Hypertext Transfer Protocol Secure
 - šifruje data při komunikaci mezi klientem a serverem
