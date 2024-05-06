@@ -3,7 +3,7 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 
 - [Zpracovaná témata z PV](https://github.com/NeDDy3z/jecna-pv-maturita)
 - [Další zpracovaná témata z PV z předchozích let](https://github.com/AntoninKadrmas/MaturitaJecna)
-<br></br><br></br><br></br>
+
 ---
 ## ⚠️⚠️⚠️ Vše v CodeBlocku potřebuje jedno z následujících: ⚠️⚠️⚠️
 - Udělat
@@ -11,7 +11,7 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 - Dodělat / Přidat chybějící _(obvykle "O čem mluvit?" viz téma 14.)_
 - Komplet předělat _(Stojí to za hovno)_
 ---
-<br></br><br></br><br></br>
+
 ## Odkazy:
 ```
 1. [HTTP protokol - stavy, autentizace, HTTPS a SSL](/topics/01%20-%20HTTP%20-%20stavy,%20autentizace,%20HTTPS%20a%20SSL.md)
