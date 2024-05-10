@@ -17,6 +17,8 @@
 		- určuje verzi HTML používanou v dokumentu
 	- hlavní část dokumentu je uzavřena mezi značkami `<html>` a `</html>`
 	- obsah stránky je pak rozdělen na hlavičku `<head>` a tělo `<body>`
+## Validace
+
 ## Sémantika
 - definují význam obsahu pro webové prohlížeče a vyhledávače
 	- pomáhá vyjádřit význam jednotlivých částí dokumentu a zlepšuje jeho dostupnost a SEO
