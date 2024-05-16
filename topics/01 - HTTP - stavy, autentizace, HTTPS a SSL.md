@@ -1,5 +1,21 @@
 # 1 - HTTP - stavy, autentizace, HTTPS a SSL
 
+## O čem mluvit?
+- HTTP
+	- co to je, k čemu se používá
+	- na čem je založený
+	- popsat komunikaci pomocí HTTP
+	- k čemu slouží stavové kódy
+ 	- jaké jsou stavové kódy, příklady
+- HTTPS
+	- vysvětlit princip zabezpečení
+ 	- jaké protokoly používá
+	- rozdíly s HTTP, výhody
+- SSL
+	- co to je, k čemu se používá
+	- je vhodné ho použít dnes?
+	- typy certifikátů a validací
+
 ## HTTP - Hyper Text Transfer Protocol
 - Internetový bezstavový protokol určený pro komunikaci s WWW serverem
 - Slouží pro přenost hypertextových dokumentů ve formátu HTML nebo XML
@@ -9,6 +25,7 @@
 - Protokol funguje způsobem *dotaz-odpověď*
 - Verze HTTP/1.1, HTTP/2 a HTTP/3
 - Používá port 80
+
 ### Průběh komunikace
 - Uživatel zašle dotaz serveru ve formě čistého textu(většinou pomocí porohlížeče)
 - Tento text obsahuje označení požadovaného dokumentu + info o prohlížeči, apod.
