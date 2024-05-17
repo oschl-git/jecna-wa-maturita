@@ -1,35 +1,82 @@
 # 3 - Webový klient - konfigurace, jádro prohlížeče, DOM, BOM
-## Konfigurace webového klienta
-- **Obecné:** 
-	- jazyk, vzhled, domovská stránka
-- **Soukromí:** 
-	- cookies, historie, blokování reklamy
-- **Zabezpečení:** 
-	- certifikáty, HTTPS, phishing
-	- blokování skriptů a cookies
-- **Síť:** 
-	- Proxy, cache, offline režim
-## Jádro prohlížeče
-- **Komunikuje se serverem:**
-	- načítaní webových stránek
-	- odesílání formulářů
-	- příjímání odpovědí
-	- stahování souborů
-- **Rendering engine:** 
-	- načítání a vykreslování webových stránek (zobrazuje HTML, CSS,...)
-- **JavaScript engine:** 
-	- spouští JS kód stránek
-	- např.: V8 (Chrome), SpiderMonkey (Firefox),...
-- **Spravuje historii, sobory a cookies:**
-	- to umí každý webbrowser
+## O čem mluvit?
+- co to je prohlížeč, k čemu slouží?
+- jaké konfigurační možnosti klient má, jak s nimi můžeme počítat
+	- doplňky/extensions a jak fungují
+- jaké hlavní prohlížeče jsou
+- jaká používají jádra (browser engines)
+- co to je DOM
+	- co pod něj spadá
+	- jak se dá manipulovat
+- co to je BOM
+	- co pod něj spadá
+	- co s ním můžeme dělat
+	- cookies a Web Storage API
+## Webový klient/prohlížeč
+- webový klient = prohlížeč
+- slouží ke zobrazování webových stránek
+- podle požadavků uživatele přes HTTP protokol komunikuje se serverem, dokáže zobrazit přijatá data jako čitelnou, grafickou, interaktivní webovou stránku
+- spouští JavaScript či WebAssembly, čímž umožňuje interaktivitu
+- **často používané prohlížeče:**
+	- Mozilla Firefox
+	- Safari
+	- Google Chrome
+	- Microsoft Edge
+	- Brave
+	- Internet Explorer
+## Konfigurace webového prohlížeče
+- uživatelé si mohou prohlížeč přizpůsobit a konfigurovat
+- mohou například zakázat spouštění JavaScriptu či zcela vypnout cookies
+- většina prohlížečů umožňuje instalaci doplňků/extensions/pluginů
+	- umožňují drasticky změnit chování webových stránek
+		- změna vzhledu stránek (Dark Reader)
+		- blokování reklam (uBlock Origin)
+		- omezení trackování (uBlock Origin)
+		- správa hesel (Bitwarden)
+		- zlepšení funkcionality specifických webových stránek (SteamDB)
+## Jádro webového prohlížeče
+- zobrazování webových stránek zajišťuje jádro prohlížeče/rendering engine/browser engine/layout engine
+- dnes je nejvíce rozšířený **Blink**, který používá Google Chrome a všechny prohlížeče založené na open-source **Chromium** prohlížeči
+	- dominance Chromium prohlížečů je extrémně negativní a ohrožuje svobodu a otevřenost internetu
+- **častá jádra webových prohlížečů:**
+	- **Blink (Chromium)**
+		- Google Chrome
+		- Microsoft Edge
+		- Brave
+		- Opera	
+	- **Gecko** 🦎
+		- Mozilla Firefox
+		- Floorp
+	- **WebKit**
+		- Safari (Apple)
+		- některé open-source browsery, např. Epiphany/GNOME Web
+	- **Trident** (zastaralý)
+		- Internet Explorer
+	- **EdgeHTML** (zastaralý)
+		- původní engine pro Microsoft Edge
 ## DOM (Document Object Model)
-- reprezentuje strukturu a obsah webové stránky
-	- HTML nebo XML dokument
-- struktura je hiearchická
-- pomocí DOM můžeme dynamicky manipulovat s HTML a CSS
-	- klient může přidávat, měnit nebo odstraňovat prvky na stránce, reagovat na události a aktualizovat zobrazení bez nutnosti obnovení celé stránky
+- struktura webové stránky
+- interaktivní reprezentace HTML prvků, které jsou součástí struktury
+- můžeme využívat JavaScript k manipulaci, čímž tvoříme interaktivitu
+- k prvkům přistupujeme skrz selectory
+	- class/třídy `.`
+	- IDs `#`
+	- názvy samotných tagů `<>`
+- JavaScript metody:
+	- `getElementById();`
+	- `getElementsByClassName();`
+	- `getElementsByTagName();`
+- alternativně můžeme využít `querySelector();`
 ## BOM (Browser Object Model)
-- reprezentuje prostředí prohlížeče
-- poskytuje přístup k funkcím prohlížeče
-	- navigace, manipulace s okny, správa historie,....
-- umožňuje zobrazování oken, dialogů a potvrzovacích okének uživateli
+- funkce webového prohlížeče, ke kterým mají weby přístup
+- umožňuje interaktivitu i ze strany prohlížeče
+	- můžeme získat šířku a výšku okna či ji dokonce měnit
+	- otevírat a zavírat okna prohlížeče
+	- přístup k funkcím jako např. tisk stránky
+	- přístup k nedávné historii prohlížeče
+	- browser popupy
+	- získání používaného prohlížeče (user agent)
+- umožňuje přístup a správu cookies
+- umožňuje přístup a správu Web Storage API
+	- localStorage
+	- sessionStorage
