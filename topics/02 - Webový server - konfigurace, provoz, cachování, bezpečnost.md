@@ -14,6 +14,8 @@
   - proč ji využívat
   - typy
   - jak funguje
+- bezpečnost
+  - způsoby jak zajistit bezpečný w. server
 
 ## Webový server
 
