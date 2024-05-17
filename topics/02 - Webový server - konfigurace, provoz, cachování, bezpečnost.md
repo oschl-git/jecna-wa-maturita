@@ -17,6 +17,12 @@
 - bezpečnost
   - způsoby jak zajistit bezpečný w. server
 
+### Ondrova poznámka:
+>"Myslím ale že tam chybí věci jako NodeJS, Flask, atd. které neběží přes Apache nebo Nginx ale jsou webservery samotné, že je pustíš na serveru jako daemon a zvládají ty requesty samy. Když jsem tohle řešil s Adámkem tak vím že jsme porovnávali rychlosti, že je PHP pomalejší protože běží přes Apache/Nginx.
+>Oh ye a v praxi se daleko častěji Apache a Nginx používá na PHP než na statické HTML určitě. 
+>Jakoby většina jazyků ve kterých programuješ backend běží jako samotný webserver proces, nepotřebuješ Apache nebo Nginx, i když se třeba často používají ve spojení protože umí udělat věci jako reverse proxy atd."
+
+
 ## Webový server
 
 - Druh serveru, který poskytuje klientům, nejčastěji webovým prohlížečům, požadovaný webový obsah specifikovaný URL adresou, typicky webové stránky
