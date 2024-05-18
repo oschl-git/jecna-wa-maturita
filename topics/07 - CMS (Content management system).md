@@ -33,6 +33,7 @@
 		- pluginy můžeme nainstalovat jedním kliknutím
 		- doplňky mohou drasticky změnit či vylepšit chování stránky pro naše specifické potřeby
 		- můžeme přes WordPress vyrábět eshopy, komplexní formuláře, či jen vylepšit správu obsahu
+		- některé pluginy a šablony mohou být placené
 - **Shopify**
 	- druhý nejpoužívanější CMS
 	- cloud-based, není ho možné hostovat na vlastním serveru
