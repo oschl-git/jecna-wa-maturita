@@ -15,7 +15,7 @@ Zpracovaná témata na maturitu z předmětu **WA (webové aplikace)** na SPŠE 
 2. [Webový server - konfigurace, provoz, cachování, bezpečnost](/topics/02%20-%20Webový%20server%20-%20konfigurace,%20provoz,%20cachování,%20bezpečnost.md)
 3. [Webový klient - konfigurace, jádro prohlížeče, DOM, BOM](/topics/03%20-%20Webový%20klient%20-%20konfigurace,%20jádro%20prohlížeče,%20DOM,%20BOM.md)
 4. [Asynchroní a synchroní komunikace na webu](/topics/04%20-%20Asynchroní%20a%20synchroní%20komunikace%20na%20webu.md)
-5. ⚠️ [REST (Representational State Transfer) - identifikátor, HATEOAS, CRUD](/topics/05%20-%20REST%20-%20identifikátor,%20HATEOAS,%20CRUD.md)
+5. [REST (Representational State Transfer) - identifikátor, HATEOAS, CRUD](/topics/05%20-%20REST%20-%20identifikátor,%20HATEOAS,%20CRUD.md)
 6. ⚠️ [Optimalizace webu - caching , CDN, SEO, loading optimization](/topics/06%20-%20Optimalizace%20webu%20-%20caching%20,%20CDN,%20SEO,%20loading%20optimization.md)
 7. ⚠️ [CMS (Content management system)](/topics/07%20-%20CMS%20(Content%20management%20system).md)
 8. ⚠️ [Proces vývoje webých aplikací](/topics/08%20-%20Proces%20vývoje%20webých%20aplikací.md)

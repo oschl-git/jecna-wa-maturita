@@ -1,23 +1,46 @@
 # 7 - CMS (Content management system)
-- umožňuje uživatelům vytvářet, upravovat, spravovat a publikovat obsah na webových stránkách 
+## O čem mluvit?
+- vysvětlit, co to je
+- proč es používají
+- jaké jsou nejčastější
+	- jak se používají
+	- k čemu jsou určené
+- typy instalace, vysvětlit rozdíl
+## CMS
+- nástroje, které umožňují uživatelům vytvářet, upravovat, spravovat a publikovat obsah na webových stránkách 
 - nepotřebují hlubší znalosti programování nebo vývoje webových stránek
 	- dokáže to snad i tvoje bába >:(
 	- snadná tvorba stránek
-	- stránky tvoří editoři
 - sníží se náklady na provoz
 - obvykle je ve formátu webového rozhraní
-- **Použití:** prakticky všude, zejména; eshopy, web.zprávy,
-- **Příklady:** Wordpress, Joomla, Drupal, Shopify
-## Základní funkce:
-- **Správa obsahu:** 
-	- tvorba a úprava obsahu webových stránek 
-	- možnost vytvářet a editovat text, obrázky, videa, odkazy a další prvky obsahu
-	- organizování obsahu do kategorií, rubrik, stránek a příspěvků
-- **Oprávnění:** 
-	- vytváření uživatelských účtů a definování oprávnění pro přístup a práci s obsahem
-		- umožňuje určit, které role uživatelů mají přístup k určitým funkcím a částem webu
-- **Design:**
-    - možnost výběru a použití šablon a designů pro vizuální prezentaci webových stránek
-- **Pluginy a rozšíření:**
-    - některé CMS mohou nabízet pluginy a rozšíření
-    - umožňují rozšířit funkcionalitu CMS o různé funkce, jako jsou formuláře, sociální média, SEO optimalizace, e-commerce a další...
+- přes webové nástroje může jednoduchý web vyrobit i úplný lajk
+## Typy instalace CMS
+- **on-premises**
+	- instaluje se na vlastní server, hosting řešíme sami
+- **cloud-based**
+	- hosting nám poskytuje samotný vývojář CMS, k souborům CMS nemáme přímý přístup
+## Příklady CMS
+- **WordPress**
+	- nejpoužívanější CMS (používá ho asi 42% webů)
+	- on-premises, wordpress.com ale poskytuje hosting
+	- je open-source
+	- naprogramovaný v PHP, potřebuje MySQL či MariaDB databázi
+	- podporuje přihlášení několika uživatelů, správu běžných uživatelů, adminů, atd.
+	- správa stránek, ale i příspěvků (ideální pro blogy)
+	- weby využívají šablony, které určují vzhled stránky, jsou uživatelsky přizpůsobené
+	- je rozšířitelný pomocí doplňků, které přidávají novou funkcionalitu
+- **Shopify**
+	- druhý nejpoužívanější CMS
+	- cloud-based, není ho možné hostovat na vlastním serveru
+	- specificky určený pro tvorbu e-eshopů
+	- placený
+	- dá se rozšířit doplňky, které jsou taky placené
+- **Joomla**
+	- on-premises
+	- je open-source
+	- naprogramovaný v PHP
+	- velice flexibilní, umožňuje tvorbu jednoduchých webů, diskuzních platforem, eshopů a mnoho dalších webových aplikací
+- **Drupal**
+- **Squarespace**
+- **Wix**
+- **Webnode** 🇨🇿
