@@ -2,22 +2,22 @@
 
 ## O čem mluvit?
 - popsat optimalizaci webu
- - proč
- - k čemu je to dobré
- - je nějaký konečný stav stránky, nebo se optimalizuje neustále?
+	- proč
+	- k čemu je to dobré
+	- je nějaký konečný stav stránky, nebo se optimalizuje neustále?
 - caching
- - co to je
- - k čemu je dobrý
- - jak funguje
- - jak se tím optimalizuje web
+	- co to je
+	- k čemu je dobrý
+	- jak funguje
+	- jak se tím optimalizuje web
 - CDN
- - popsat jak funguje
- - jak to optimalizuje náš web
+	- popsat jak funguje
+	- jak to optimalizuje náš web
 - SEO
- - popsat
- - co musíme udělat aby naše stránka měla dobré SEO skóre
+	- popsat
+	- co musíme udělat aby naše stránka měla dobré SEO skóre
 - optimalizace načítání
- - jak můžeme zrychlit načítání obsahu na stránce
+	- jak můžeme zrychlit načítání obsahu na **stránce**
 
 ## Optimalizace webu
 - Proces používání nástrojů, pokročilých strategií a experimentů ke zlepšení výkonu webových stránek
