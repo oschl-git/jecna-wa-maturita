@@ -1,7 +1,7 @@
 # 7 - CMS (Content management system)
 ## O čem mluvit?
 - vysvětlit, co to je
-- proč es používají
+- proč se používají
 - jaké jsou nejčastější
 	- jak se používají
 	- k čemu jsou určené
@@ -28,7 +28,11 @@
 	- podporuje přihlášení několika uživatelů, správu běžných uživatelů, adminů, atd.
 	- správa stránek, ale i příspěvků (ideální pro blogy)
 	- weby využívají šablony, které určují vzhled stránky, jsou uživatelsky přizpůsobené
-	- je rozšířitelný pomocí doplňků, které přidávají novou funkcionalitu
+	- je rozšířitelný pomocí pluginů, které přidávají novou funkcionalitu
+		- WordPress obsahuje vlastní "katalog" se šablonami a pluginy
+		- pluginy můžeme nainstalovat jedním kliknutím
+		- doplňky mohou drasticky změnit či vylepšit chování stránky pro naše specifické potřeby
+		- můžeme přes WordPress vyrábět eshopy, komplexní formuláře, či jen vylepšit správu obsahu
 - **Shopify**
 	- druhý nejpoužívanější CMS
 	- cloud-based, není ho možné hostovat na vlastním serveru
