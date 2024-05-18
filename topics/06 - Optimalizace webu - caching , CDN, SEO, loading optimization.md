@@ -19,6 +19,11 @@
 - optimalizace načítání
 	- jak můžeme zrychlit načítání obsahu na **stránce**
 
+## Ondrova poznámka
+> "Myslím že určitě bude Adámek ale chtít server-side a client-side caching.
+> Je potřeba vědět ten rozdíl no a že věci jako CSS prohlížeč cachuje i defaultně. Ale ta implementace je podstatně odlišná.
+> U klienta to cachuje prohlížeč a dost limitovaně, na serveru to děláš jak si to naprogramuješ."
+
 ## Optimalizace webu
 - Proces používání nástrojů, pokročilých strategií a experimentů ke zlepšení výkonu webových stránek
 - Cílem optimalizace webu je co nejvíce zpříjemnit "pobyt" uživatele na webové stránce - stránka je dobře viditelná na internetu, má rychlé načítání obsahu, dobře čitelný obsah, atd. 
