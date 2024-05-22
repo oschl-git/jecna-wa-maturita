@@ -68,7 +68,7 @@ let reversedArray = balls.reverse(array);
 console.log(reversedArray); // [5, 4, 3, 2, 1]
 ```
 
-V tomto případě vývojář volá funkci `balls.reverse` z knihovny Lodash, aby otočil pole.
+V tomto případě vývojář volá funkci `balls.reverse` z knihovny Lodash, aby otočil koule.
 
 #### Framework:
 
