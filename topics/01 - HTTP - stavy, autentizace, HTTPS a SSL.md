@@ -33,7 +33,7 @@
 - Zda dokument existuje, typ dokumentu, apod.
 - Za tímto textem už jsou data samotného požadovaného dokumentu
 
-![http_communication](https://github.com/oschl-git/jecna-wa-maturita/blob/main/images/01_http.jpg)
+![http_communication](../images/01_http.jpg)
 
 **Příklad:**
 
@@ -94,7 +94,7 @@ Víc příkladů [zde](https://status.js.org/)
 - Všeobecně je dnes doporučeno používat HTTPS na všech webových stránkách
 - Používá port 443
 
-![https](https://github.com/oschl-git/jecna-wa-maturita/blob/main/images/01_https.png)
+![https](../images/01_https.png)
 
 ### Princip funkce zabezpečení
 - Bezpečnost komunikace zaručuje protokol SSL(Secure Socket Layer) anebo novější TLS(Transport Layer Security)

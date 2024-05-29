@@ -12,22 +12,18 @@ Frontend web framework (FWF) je nástroj, který vývojářům usnadňuje tvorbu
     - Organizace obsahu
 - **Základní Složky Frontendu**
 	1. **HTML (HyperText Markup Language)**:
-	    
 	    - **Kostra webové stránky**: HTML je základním stavebním kamenem webové stránky, definuje strukturu a obsah.
 	    - **Elementy a značky**: Umožňuje vkládat různé elementy jako nadpisy, odstavce, odkazy, obrázky, formuláře apod.
 	    - **Semantika**: Pomáhá při správném označení obsahu pro lepší SEO a přístupnost (např. `<header>`, `<nav>`, `<section>`, `<footer>`).
 	2. **CSS (Cascading Style Sheets)**:
-	    
 	    - **Styling a layout**: CSS se používá k aplikování stylů na HTML elementy, včetně barev, fontů, rozložení a animací.
 	    - **Responsivita**: Umožňuje přizpůsobit vzhled stránky různým zařízením (mobilní telefony, tablety, desktopové počítače) pomocí media queries.
 	    - **Flexbox a Grid**: Moderní techniky layoutu pro vytvoření komplexních a flexibilních rozložení.
 	3. **JavaScript (JS)**:
-	    
 	    - **Interaktivita**: JavaScript umožňuje vytvářet dynamické a interaktivní prvky na stránce, jako jsou formuláře, galerie obrázků, animace apod.
 	    - **Manipulace s DOM**: JavaScript může dynamicky měnit obsah a strukturu HTML dokumentu.
 	    - **Asynchronní operace**: Umožňuje načítání dat na pozadí (AJAX) bez nutnosti obnovovat stránku.
 	4. **WebAssembly (Wasm)**:
-	    
 	    - **Alternativa k JavaScriptu**: WebAssembly umožňuje běh kódu napsaného v jiných programovacích jazycích (např. C, C++, Rust) v prohlížeči.
 	    - **Výkon**: Poskytuje vyšší výkon pro výpočetně náročné aplikace jako hry, CAD aplikace, zpracování videa apod.
 #### Rozdíl mezi Frameworkem a Knihovnou

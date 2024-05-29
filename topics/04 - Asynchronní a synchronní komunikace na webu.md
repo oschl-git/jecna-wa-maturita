@@ -1,4 +1,4 @@
-# 4 - Asynchroní a synchroní komunikace na webu
+# 4 - Asynchronní a synchronní komunikace na webu
 ## O čem mluvit?
 - synchronní komunikace
     - co to je

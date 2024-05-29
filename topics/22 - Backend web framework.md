@@ -50,6 +50,3 @@
 		- Ruby 
 		- Robustní, konvence nad konfigurací
 		- Big Boi
-
-## *
-1. Stejně jak píšem velká a malá písmena, háčky a čárky, tak i některí frameworky očekávají že budete dodržovat jejich konfigurační konvenci (struktura adresářů, tabulky a modely, routing,..). Ruby on Rails je celé postaveno na tenhle princip, což některým může přijít otravné a nepříjemné

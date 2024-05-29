@@ -45,9 +45,9 @@
 - Na základě tohoto požadavku prohlížeč, CDN nebo mezipaměť serveru nejprve zkontroluje, zda kopie požadované webové stránky již existuje
 - V procesu kontroly, zda je mezipaměť k dispozici, uživatel odešle požadavek na webovou stránku a výsledek se rozdělí mezi 2 možné scénáře:
   - **Scénář 1**: Chyba mezipaměti: Pokud v mezipaměti není nalezena žádná kopie požadované webové stránky, bude to mít za následek chybějící odpověď mezipaměti – a prohlížeč bude muset provést nový požadavek z hlavního serveru. Mezitím, pokud je webová stránka uložena v mezipaměti, prohlížeč pokračuje v doručování verzí uložených v mezipaměti z místa, kde je uložena, dokud není vymazána nebo nevyprší její platnost.
-    ![scene1](https://github.com/oschl-git/jecna-wa-maturita/blob/main/images/02_cache1.png)
+    ![scene1](../images/02_cache1.png)
   - **Scénář 2**: Požadavek na mezipaměť: Předpokládejme, že kopie požadované webové stránky je uložena v mezipaměti. V takovém případě dojde k odpovědi na přístup do mezipaměti a prostředek obsažený v mezipaměti se doručí uživateli.
-    ![cache2](https://github.com/oschl-git/jecna-wa-maturita/blob/main/images/02_cache2.png)
+    ![cache2](../images/02_cache2.png)
 
 **Výhody**
 
